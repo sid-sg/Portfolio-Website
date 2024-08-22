@@ -1,0 +1,16 @@
+
+[[main]]
+  name = "About"
+  pageRef = "About"
+  weight = 1
+
+[[main]]
+  name = "Projects"
+  pageRef = "Projects"
+  weight = 2
+
+
+[[main]]
+  name = "Resume"
+  url = "https://drive.google.com/file/d/143v5Qlcy6XNoK1cm6LMzodcQba0RozAu/view?usp=drive_link"
+  weight = 3

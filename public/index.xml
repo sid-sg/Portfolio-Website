@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>sengupta.sid03@gmail.com (Siddharth Sengupta)</managingEditor>
+    <webMaster>sengupta.sid03@gmail.com (Siddharth Sengupta)</webMaster>
+    <copyright>© 2024 Siddharth Sengupta</copyright>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>sengupta.sid03@gmail.com (Siddharth Sengupta)</author>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Skills # Programming Languages # C/C++ JavaScript TypeScript Go Java HTML/CSS Backend Technologies # JS Runtimes : Node.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/about/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>sengupta.sid03@gmail.com (Siddharth Sengupta)</author>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>Blonote # GitHub Deployment Tech Stack: TypeScript, Cloudwfare Workers, Hono.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/projects/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>
