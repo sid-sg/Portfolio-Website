@@ -1,0 +1,29 @@
+<div class="w-full md:w-auto p-5 border border-neutral-200 dark:border-neutral-700 rounded-md shadow-2xl">
+
+  <!-- First line with GitHub and deployment links -->
+  <div class="flex items-center mb-3">
+    <a href="{{ .Get "githubLink" }}" target="_blank" class="flex items-center text-lg hover:underline" style="margin-right:10px;">
+      <span class="mr-2 text-neutral-800 dark:text-neutral">{{ partial "icon.html" "github" }}</span> 
+      <span class="text-primary-500">GitHub</span>
+    </a>
+    {{ if .Get "deploymentLink" }}
+      <a href="{{ .Get "deploymentLink" }}" target="_blank" class="text-lg text-primary-500 hover:underline">
+        Deployment
+      </a>
+    {{ end }}
+  </div>
+
+  <!-- Tech Stack -->
+  <div class="mb-3">
+    <h3 class="font-bold text-lg text-neutral-800 dark:text-neutral">Tech Stack:</h3>
+    <p class="text-md text-neutral-800 dark:text-neutral">{{ .Get "techStack" | markdownify }}</p>
+  </div>
+
+  <!-- Description with bullet points -->
+  <div>
+    <ul class="list-disc pl-2 text-md text-neutral-800 dark:text-neutral">
+      {{ .Inner | markdownify }}
+    </ul>
+  </div>
+
+</div>
