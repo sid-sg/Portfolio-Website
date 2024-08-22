@@ -6,10 +6,10 @@ title: "About"
 
 
 
-# Skills
+## Skills
 
 
-## Programming Languages
+### Programming Languages
 - C/C++
 - JavaScript
 - TypeScript
@@ -17,37 +17,37 @@ title: "About"
 - Java
 - HTML/CSS
 
-## Backend Technologies
+### Backend Technologies
 - <u>JS Runtimes :</u> Node.js, Wokerd
 - <u>JS Routing Frameworks :</u> Express.js, Hono.js
 
-## Databases
+### Databases
 - PostgreSQL
 - MongoDB
 
-## Cloud/DevOps
+### Cloud/DevOps
 - <u>AWS :</u> EC2, S3, CloudFront
 - Cloudfare Workers
 - Docker
 
-## Frontend Technologies
+### Frontend Technologies
 - React.js
 - Next.js
 - Recoil 
 - Tailwind
 
-## Tools
+### Tools
 - Git/GitHub
 - Postman
 - Vim
 
-## Operating Systems
+### Operating Systems
 - <u>Linux :</u> PopOS, Ubuntu, Debian, Alpine
 - Windows
 
 <br>
 
-# Education
+## Education
 
 
 
