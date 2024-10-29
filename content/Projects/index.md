@@ -4,32 +4,32 @@ title: "Projects"
 <!-- This exists so that theres a gap between the table of contents and the heading on smaller screens -->
 <br>
 
+## Walletora: E-Wallet
+{{< projectBox githubLink="https://github.com/sid-sg/Walletora"  techStack="TypeScript, Next.js, Node.js, Express.js, Turborepo, Docker, CI/CD, Postgres" >}}
+- Built monorepo using Turborepo with Next.js user app and Express.js webhook server
+- Implemented user authentication using NextAuth; developed balance tracking and peer-to-peer money transfer features
+- Integrated webhooks for real-time deposits from bank accounts to user wallets
+- Ensured ACID compliance using PostgreSQL transactions and row-level locking with ”FOR UPDATE” clause
+- Used Docker to containerize the apps and host images in Docker Hub
+- Created CI/CD pipelines with GitHub Actions for building and deploying Docker images to AWS EC2
+{{< /projectBox >}}
+
 ## Blonote
-{{< projectBox githubLink="https://github.com/sid-sg/Blonote" deploymentLink="https://blonote.vercel.app/" techStack="TypeScript, Cloudwfare Workers, Hono.js, PostgreSQL, Prisma, React, Tailwind" >}}
-- Created a Blogging site where users can Sign Up/Log In, read and write blogs with Notion-like text editing features like:
-multiple headings, images, lists, tables, text colouring, text alignment, etc
-- Created and deployed backend in Cloudfare Workers runtime for high performance and used Hono as the routing framework
-- Used Prisma Accelerate for Connection Pooling and Prisma ORM to store data on Postgres Database (deployed on Neon)
-- Used Zod for input schema validation, PBKDF2 for hashing password and JWT for authorization
+{{< projectBox githubLink="https://github.com/sid-sg/Blonote" deploymentLink="https://blonote.vercel.app/" techStack="TypeScript, Cloudflare Workers, Hono.js, PostgreSQL, Prisma, React, Tailwind" >}}
+- Developed a blogging platform with Sign Up/Log In functionality and Notion-style text editing using BlockNote (supports
+headings, images, lists, tables, and text formatting)
+- Created and deployed the backend on Cloudflare Workers using Hono for routing
+- Implemented Prisma Accelerate for connection pooling and Prisma ORM to manage data in a PostgreSQL database
+- Ensured secure authentication with JWT and password hashing using PBKDF2; validated inputs with Zod
 - Created responsive and optimal frontend using React and Tailwind
 {{< /projectBox >}}
 
 
 ## FlySh UNIX Shell
 {{< projectBox githubLink="https://github.com/sid-sg/Flysh-UNIX-Shell"  techStack="C, GNU Make, Syscalls, Compiler Design" >}}
-- Created a UNIX shell which can execute commands like: ls, echo, pwd, grep, mkdir, rm, cat, clear, touch, etc.
-- Implemented custom Lexer, Parser, Tokenizer and Abstract Syntax Tree (AST)
-- Executed tokenized commands using execv, fork and waitpid syscalls
-{{< /projectBox >}}
-
-
-## Walletora: E-Wallet
-{{< projectBox githubLink="https://github.com/sid-sg/Walletora-E-Wallet"  techStack="React, Express, Node.js, MongoDB, JavaScript, Tailwind" >}}
-- Created a E-Wallet which follows ACID properties using MongoDB Transactions ensuring rollback mechanism
-- Created responsive frontend using React and Tailwind with which users can easily send money from one user to other
-- Implemented JWT authorization for Sign up/ Log in routes using JWT tokens stored in browser’s localStorage
-- Used Zod for input schema validation and Bcrypt to hash passwords
-- Used Mongoose to store data in MongoDB and used Vite as the build tool
+- Developed a custom UNIX shell capable of executing standard commands such as ls, echo, pwd, rm, cat, clear, etc
+- Designed and implemented a Lexer, Parser, Tokenizer, and Abstract Syntax Tree (AST) to process user inputs
+- Handled command execution using syscalls like execv, fork, and waitpid for process management
 {{< /projectBox >}}
 
 

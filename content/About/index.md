@@ -18,8 +18,9 @@ title: "About"
 - HTML/CSS
 
 ### Backend Technologies
-- <u>JS Runtimes :</u> Node.js, Wokerd
-- <u>JS Routing Frameworks :</u> Express.js, Hono.js
+- Node.js
+- Express.js
+- Prisma
 
 ### Databases
 - PostgreSQL
@@ -27,8 +28,9 @@ title: "About"
 
 ### Cloud/DevOps
 - <u>AWS :</u> EC2, S3, CloudFront
-- Cloudfare Workers
+- Cloudflare Workers
 - Docker
+- CI/CD (GitHub Actions)
 
 ### Frontend Technologies
 - React.js
@@ -40,6 +42,7 @@ title: "About"
 - Git/GitHub
 - Postman
 - Vim
+- Turborepo
 
 ### Operating Systems
 - <u>Linux :</u> PopOS, Ubuntu, Debian, Alpine
