@@ -14,6 +14,17 @@ title: "Projects"
 - Created CI/CD pipelines with GitHub Actions for building and deploying Docker images to AWS EC2
 {{< /projectBox >}}
 
+## Multithreaded Secure FTP Client-Server Application
+
+{{< projectBox githubLink="https://github.com/sid-sg/Multithreaded-Secure-FTP-Client-Server"  techStack="C++, OpenSSL, Zlib, SQLite, CMake" >}}
+- Developed a Secure Multithreaded FTP Server where concurrent clients can: list, upload, download, rename and delete files
+- Used OpenSSL for secure file transfer using TLS protocol and used TCP optimizations to dynamically manage Nagle’s algorithm
+- Improved file transfer speed by 30% utilizing sendfile() zero-copy syscall and kernel-space data encryption using kTLS
+- Built a threadpool to handle concurrent clients efficiently, ensuring synchronization with locks and condition variables.
+- Created a secure user authentication system with OpenSSL’s PBKDF2 hashing for passwords and SQLite for database management.
+- Utilized Zlib’s Gzip for on-the-fly file compression/decompression and automated builds with CMake
+{{< /projectBox >}}
+
 ## Blonote
 {{< projectBox githubLink="https://github.com/sid-sg/Blonote" deploymentLink="https://blonote.vercel.app/" techStack="TypeScript, Cloudflare Workers, Hono.js, PostgreSQL, Prisma, React, Tailwind" >}}
 - Developed a blogging platform with Sign Up/Log In functionality and Notion-style text editing using BlockNote (supports
